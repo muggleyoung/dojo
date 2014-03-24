@@ -1,0 +1,33 @@
+%fieldset#form-content
+  %div.field
+    %label.field-title{:for => 'name'}
+      I am
+    %div.field-content
+      %input.field-value#input-name
+
+  %div.field
+    %label.field-title{:for => 'coach'}
+      My coach is
+    %div.field-content
+      %input.field-value#input-coach
+
+  %div.field
+    %label.field-title{:for => 'region'}
+      Region
+    %div.field-content
+      %input.field-value#input-region
+
+  %div.field
+    %label#field-title{:for => 'role'}
+      Role
+    %div.field-content
+      %input.field-value#input-role
+        
+  %div.field
+    %label#field-title{:for => 'session'}
+      Favourite session
+    %div.field-content
+      %input.field-value#input-session
+
+  %a#submit{:href => '/results'}
+    Submit

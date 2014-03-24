@@ -1,0 +1,46 @@
+#form {
+    background-color: #fff;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#form-header {
+    padding: 40px 20px;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+#form-content {
+    padding: 20px 20px;
+}
+
+.field {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.field-title {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.field-content {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.field-value {
+    padding: 4px 6px;
+    font-size: 16px;
+}
+
+#submit {
+    font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #00bccd;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #fff;
+}
