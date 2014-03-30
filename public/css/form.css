@@ -26,8 +26,8 @@
 }
 
 .field-content {
-    display: inline-block;
-    margin-left: 10px;
+    display: block;
+    margin-left: 50px;
 }
 
 .field-value {

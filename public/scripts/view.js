@@ -4,13 +4,22 @@ $(document).ready(function(){
             var value = $(this).val();
             createCookie( $(this).attr('id'), value, 3);
         });
+        pausecomp(2000);
     });
 
    $('.result').each(function(){
         $(this).html(readCookie('input-' + $(this).attr('id')));
    });
+
+   $('.date').html($.format.date(new Date(), "dd/MM/yyyy HH:mm"));
 })
 
+function pausecomp (millis) {
+    var date = new Date();
+    var curDate = null;
+    do { curDate = new Date(); }
+    while ( curDate -date < millis );
+}
 
 function createCookie(name,value,days) {
 	if (days) {

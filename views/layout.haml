@@ -1,14 +1,16 @@
 !!!
 %html
   %head
-    %title
+    %title Welcome to TWU
     %link{:rel => 'stylesheet', :href => '/css/layout.css'}
     %link{:rel => 'stylesheet', :href => '/css/form.css'}
     %link{:rel => 'stylesheet', :href => '/css/results.css'}
+    %link{:rel => 'shortcut icon', :href => '/favicon.ico'}
     %script{:type => 'text/javascript', :src => '/scripts/jquery-2.0.1.js'}
+    %script{:type => 'text/javascript', :src => '/scripts/jquery-dateFormat.min.js'}
     %script{:type => 'text/javascript', :src => '/scripts/view.js'}
   %body
     %div#form
       %div#form-header 
-        TWU36 Survey Form
+        TWU36 Form
       = yield
