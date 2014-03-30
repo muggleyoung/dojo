@@ -1,8 +1,12 @@
 .greeting {
-    font-size: 18px;
-    padding: 10px 20px;
+    padding: 10px 0;
 }
 
-#name {
+.result {
     color: #00bccd;
+}
+
+#result-content {
+    font-size: 18px;
+    padding: 20px;
 }
